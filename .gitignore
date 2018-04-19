@@ -4,3 +4,8 @@ _site/
 node_modules/
 package-lock.json
 .DS_Store
+js/all.js
+js/all.min.js
+css/main.css
+css/main-unprefixed.css
+svg/min
