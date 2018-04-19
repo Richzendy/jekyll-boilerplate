@@ -63,6 +63,11 @@ This theme have another versions with more features, please see the branchs:
 
 * [HomePage, Gallery page and Blog](https://github.com/Richzendy/jekyll-boilerplate/tree/page-gallery-blog) 
 
+## Demos ##
+
+* Master - [http://jekyll-boilerplate.richzendy.org/](http://jekyll-boilerplate.richzendy.org/)
+* HomePage, Gallery page and Blog - [http://jekyll-boilerplate.richzendy.org/page-gallery-blog/](http://jekyll-boilerplate.richzendy.org/page-gallery-blog/)
+
 ## Resources ##
 
 * Images thanks to https://pixabay.com/es/users/krzysztof-m-1363864/
