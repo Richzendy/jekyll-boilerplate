@@ -9,11 +9,11 @@ You need to have jekyll and npm packages installed.
 
 * Clone this repo
  
-   git clone https://github.com/Richzendy/jekyll-boilerplate.git
+    git clone https://github.com/Richzendy/jekyll-boilerplate.git
    
 * Install grunt packages
  
-   npm install
+    npm install
    
 ## Run the project ##
 
@@ -21,26 +21,26 @@ You need to have jekyll and npm packages installed.
 
 To generate the css files:
 
-  grunt sass
-  grunt autoprefixer
+    grunt sass
+    grunt autoprefixer
   
 To generate the js file
 
-  grunt concat
-  grunt uglify
+    grunt concat
+    grunt uglify
   
 To build the svg icons
 
-  grunt svgmin
-  grunt svgstore
+    grunt svgmin
+    grunt svgstore
   
 Finally to see changes and rebuild
 
-  grunt watch
+    grunt watch
   
 * On another terminal execute the jekyll server
 
-  jekyll serve
+    jekyll serve
   
 * On your browser go to http://localhost:4000
 
