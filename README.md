@@ -35,4 +35,4 @@ You need to have jekyll and npm packages installed.
 ## Resources ##
 
 * Images thanks to https://pixabay.com/es/users/krzysztof-m-1363864/
-* Logon and favicon icon from https://www.iconfinder.com/icons/2672699/app_essential_house_object_ui_ux_icon
+* Logo and favicon icon from https://www.iconfinder.com/icons/2672699/app_essential_house_object_ui_ux_icon
