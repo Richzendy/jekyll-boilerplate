@@ -1,0 +1,76 @@
+---
+layout: default
+title: Blog
+description: "Blog Page"
+---
+
+<h1 class="section-title">{{ page.title }}</h1>
+<div class="container">
+    <p>&nbsp;</p>
+    <div class="row">     
+        <div class="col-sm-12">
+            {% for post in paginator.posts %}
+            <div class="col-sm-5">
+                <a href="{{site.baseurl}}{{ post.url }}">
+                    {% if post.featured.small %}
+                    <img class="img-responsive center-block" alt="{{ post.title }}" src="{{ site.baseurl }}/img/blog/thumb/{{ post.featured.small }}"/>
+                    {% else %}
+                    <img class="img-responsive center-block" alt="{{ post.title }}" src="{{ site.baseurl }}/img/blog/thumb/no-image.png"/>
+                    {% endif %}
+                </a>
+            </div>
+            <div class="col-sm-7">
+                <div class="post-title">
+                    <a href="{{ post.url }}">
+                        <h3>{{ post.title }}</h3>
+                    </a>
+                </div>
+                <div class="post-time">
+                    <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time>
+                </div>
+                <div class="post-content">
+                    <p class="text-justified">
+                      {{ post.excerpt | strip_html }}... <a title="Go to {{ product.title }}" href="{{ post.url }}">Read More</a>
+                    </p>                      
+                </div>
+                <div class="categories">
+                    <svg class="icon icon-leaf"><use xlink:href="#icon-leaf"></use></svg>
+                    Categories: 
+                    {% for category in post.categories %}
+                        <a href="/blog/category/#{{ category  }}">{{ category | capitalize }}</a>&nbsp; 
+                    {% endfor %}
+                </div>               
+            </div>
+            <div class="clearfix"></div>
+            <p>&nbsp;</p>
+            {% endfor %}
+            <!-- Start Pagination links -->
+            {% if paginator.total_pages > 1 %}
+            <div class="pagination text-center">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+              {% else %}
+                <span>&laquo; Prev</span>
+              {% endif %}
+            
+              {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                  <em>{{ page }}</em>
+                {% elsif page == 1 %}
+                  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+                {% else %}
+                  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                {% endif %}
+              {% endfor %}
+            
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+              {% else %}
+                <span>Next &raquo;</span>
+              {% endif %}
+            </div>
+            {% endif %}
+            <!-- End Pagination links -->
+        </div>
+    </div>
+</div>

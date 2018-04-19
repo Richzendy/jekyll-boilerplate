@@ -1,0 +1,12 @@
+/* GALLERY
+-------------------------------------------------*/
+.gallery {
+    @extend %clearfix;
+    @extend %space;
+}
+
+.gallery-item {
+    img {
+        margin-bottom: 20px;
+    }
+}
