@@ -21,7 +21,7 @@ description: "Blog Page"
             </div>
             <div class="col-sm-7">
                 <div class="post-title">
-                    <a href="{{ post.url }}">
+                    <a href="{{ site.baseurl }}{{ post.url }}">
                         <h3>{{ post.title }}</h3>
                     </a>
                 </div>
@@ -30,14 +30,14 @@ description: "Blog Page"
                 </div>
                 <div class="post-content">
                     <p class="text-justified">
-                      {{ post.excerpt | strip_html }}... <a title="Go to {{ product.title }}" href="{{ post.url }}">Read More</a>
+                      {{ post.excerpt | strip_html }}... <a title="Go to {{ product.title }}" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
                     </p>                      
                 </div>
                 <div class="categories">
                     <svg class="icon icon-leaf"><use xlink:href="#icon-leaf"></use></svg>
                     Categories: 
                     {% for category in post.categories %}
-                        <a href="/blog/category/#{{ category  }}">{{ category | capitalize }}</a>&nbsp; 
+                        <a href="{{ site.baseurl }}/blog/category/#{{ category  }}">{{ category | capitalize }}</a>&nbsp; 
                     {% endfor %}
                 </div>               
             </div>

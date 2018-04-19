@@ -3,9 +3,9 @@ layout: default
 ---
 <div class="post">
     {% if page.featured.large %}
-    <div class="featured" style="background-image: url(/img/blog/large/{{ page.featured.large }});">
+    <div class="featured" style="background-image: url({{ site.baseurl }}/img/blog/large/{{ page.featured.large }});">
     {% else %}
-    <div class="featured" style="background-image: url(/img/blog/large/no-image.png);">
+    <div class="featured" style="background-image: url({{ site.baseurl }}/img/blog/large/no-image.png);">
     {% endif %}
         <div class="mask">
             <div class="header">
