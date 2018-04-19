@@ -1,0 +1,21 @@
+{% include doctype-head.html %}
+<body>
+    {% include svg-defs.svg %}
+    <!--[if lt IE 10]>
+        <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
+    <![endif]-->
+
+    {% include header.html %}
+ 
+        {{ content }}
+           
+    {% include footer.html %}
+    
+    {% if site.analytics %}
+        {% include analytics.html %}
+    {% endif %}
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/all.min.js"></script>
+</body>
+</html>

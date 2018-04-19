@@ -1,0 +1,41 @@
+# Site settings
+title: Jekyll Boilerplate | Basic Theme
+description: "A responsive starter Jekyll theme"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: svg/min/logo.svg
+
+plugins:
+  - jekyll-sitemap
+
+# Contact form
+api_token: # Enter API token here
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+feed: yes
+
+# Footer
+copyright: © 2018 Jekyll Boilerplate - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    package-lock.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore,
+    .DS_Store
+]
+
+# Theme Settings
+analytics: 
+google_verification:

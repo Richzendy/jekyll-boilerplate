@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="220.875px"
+   height="29.562px"
+   viewBox="0 0 220.875 29.562"
+   enable-background="new 0 0 220.875 29.562"
+   xml:space="preserve"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"><metadata
+     id="metadata35"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs33" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
+     id="namedview31"
+     showgrid="false"
+     inkscape:zoom="4.0081389"
+     inkscape:cx="110.11518"
+     inkscape:cy="31.467679"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><g
+     id="g28"
+     style="fill:#40b4ba;fill-opacity:1;stroke:#40b4ba;stroke-opacity:1"><text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.82077599px;line-height:2439.75830078px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#40b4ba;fill-opacity:1;stroke:#40b4ba;stroke-width:0.64551944px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="32.182312"
+       y="23.313015"
+       id="text51"
+       transform="scale(0.97705814,1.0234805)"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         x="32.182312"
+         y="23.313015"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans;stroke-width:0.64551944px;stroke:#40b4ba;stroke-opacity:1;fill:#40b4ba;fill-opacity:1">Jekyll Boilerplate</tspan></text>
+</g><g
+     transform="matrix(0.89084189,0,0,0.78168994,0.97001352,1.8356839)"
+     data-name="10-House"
+     id="_10-House"
+     style="fill:#40b4ba;fill-opacity:1"><path
+       inkscape:connector-curvature="0"
+       d="m 31.62,12.22 -15,-12 a 1,1 0 0 0 -1.25,0 l -15,12 A 1,1 0 0 0 1,14 h 2 v 17 a 1,1 0 0 0 1,1 h 24 a 1,1 0 0 0 1,-1 V 14 h 2 a 1,1 0 0 0 0.62,-1.78 z M 18,30 h -4 v -8 h 4 z M 28,12 a 1,1 0 0 0 -1,1 v 17 h -7 v -9 a 1,1 0 0 0 -1,-1 h -6 a 1,1 0 0 0 -1,1 v 9 H 5 V 14 H 22 V 12 H 3.85 L 16,2.28 28.15,12 Z"
+       id="path4-3"
+       style="fill:#40b4ba;fill-opacity:1" /></g></svg>
