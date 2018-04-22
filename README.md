@@ -3,6 +3,10 @@ Jekyll Starter theme with css and js minification using grunt and bootstrap scss
 
 Is a clean theme to start any project with Jekyll, based on best practices and thinking of optimization and better times of load.
 
+## Specific Version ##
+
+This a version of the main theme ( master branch ) but whit multilanguage support provided by [jekyll-multiple-languages](http://jekyll-langs.liaohuqiu.net/) plugin, please see the plugin page to specific documentation.
+
 ## Install ##
 
 You need to have jekyll and npm packages installed.
@@ -14,6 +18,12 @@ You need to have jekyll and npm packages installed.
 * Install grunt packages
  
     npm install
+    
+## Install Jekyll plugins ##
+
+    gem install jekyll-sitemap
+    gem install jekyll-paginate
+    gem install jekyll-multiple-languages
    
 ## Run the project ##
 
@@ -66,6 +76,7 @@ This theme have another versions with more features, please see the branchs:
 ## Demos ##
 
 * Master - [http://jekyll-boilerplate.richzendy.org/](http://jekyll-boilerplate.richzendy.org/)
+* i18n (multilingual) - [http://jekyll-boilerplate.richzendy.org/i18n/](http://jekyll-boilerplate.richzendy.org/i18n/)
 * HomePage, Gallery page and Blog - [http://jekyll-boilerplate.richzendy.org/page-gallery-blog/](http://jekyll-boilerplate.richzendy.org/page-gallery-blog/)
 
 ## Resources ##

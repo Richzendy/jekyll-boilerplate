@@ -7,6 +7,14 @@ logo_url: svg/min/logo.svg
 
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-multiple-languages
+
+# The all languages used
+languages: ['en', 'es']
+
+# If not config, the first item of languages will be used as the default.
+language_default:   'en'
 
 # Contact form
 api_token: # Enter API token here
@@ -19,7 +27,7 @@ youtube: http://youtube.com
 feed: yes
 
 # Footer
-copyright: © 2018 Jekyll Boilerplate - All rights reserved
+copyright: © 2018 Jekyll Boilerplate
 
 # Build settings
 markdown: kramdown

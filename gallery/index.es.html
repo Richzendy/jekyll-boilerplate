@@ -1,0 +1,27 @@
+---
+layout: default
+title: Galería
+description: "Página de Galería"
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <!-- Start Gallery -->
+            <div id="gallery" class="gallery">
+                    
+                <h2 class="section-title">{{ site.data.i18n[page.language].gallery }}</h2>
+            
+                {% for images in site.data.gallery %}
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item image-link">
+                            <img class="img-responsive center-block" src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+                        </a>                        
+                    </div>
+                {% endfor %}
+            
+            </div>
+            <!-- End Gallery -->
+        </div>
+    </div>
+</div>

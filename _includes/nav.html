@@ -15,8 +15,15 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a  href="{{ site.baseurl }}/">Home</a></li>
-                <li><a  href="{{ site.baseurl }}/gallery">Gallery</a></li>
+                <li><a  href="{{ site.baseurl }}/{% if page.is_default_language == false %}{{page.language}}/{% endif %}"> {{ site.data.i18n[page.language].home }}</a></li>
+                <li><a  href="{{ site.baseurl }}/{% if page.is_default_language == false %}{{page.language}}/{% endif %}gallery">{{ site.data.i18n[page.language].gallery }}</a></li>
+                <li><a  href="{{ site.baseurl }}/{% if page.is_default_language == false %}{{page.language}}/{% endif %}markdown-page">{{ site.data.i18n[page.language].page_markdown }}</a></li>
+                {% if page.language != 'en' %}
+                <li><a href="{{ site.baseurl }}/"><img alt="English" src="{{ site.baseurl }}/img/flags/en.png"/></a></li>
+                {% endif %}
+                {% if page.language != 'es' %}
+                <li><a href="{{ site.baseurl }}/es/"><img alt="Español" src="{{ site.baseurl }}/img/flags/es.png"/></a></li>
+                {% endif %}
             </ul>
         </div>
     </div>

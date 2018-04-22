@@ -11,7 +11,7 @@
             {% if site.feed %}<li><a href="#"><svg class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a></li>{% endif %}
         </ul>
 
-        <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
+        <small>{% if site.copyright %} {{ site.copyright }} - {{ site.data.i18n[page.language].copyright }} {% endif %} </small>
 
     </div>
 </footer>
