@@ -14,6 +14,10 @@ You need to have jekyll and npm packages installed.
 * Install grunt packages
  
     npm install
+
+## Install Jekyll plugins ##
+
+    gem install jekyll-sitemap
    
 ## Run the project ##
 
@@ -61,11 +65,13 @@ Finally to see changes and rebuild
 
 This theme have another versions with more features, please see the branchs:
 
+* [i18n](https://github.com/Richzendy/jekyll-boilerplate/tree/i18n)
 * [HomePage, Gallery page and Blog](https://github.com/Richzendy/jekyll-boilerplate/tree/page-gallery-blog) 
 
 ## Demos ##
 
 * Master - [http://jekyll-boilerplate.richzendy.org/](http://jekyll-boilerplate.richzendy.org/)
+* i18n (multilingual) - [http://jekyll-boilerplate.richzendy.org/i18n/](http://jekyll-boilerplate.richzendy.org/i18n/)
 * HomePage, Gallery page and Blog - [http://jekyll-boilerplate.richzendy.org/page-gallery-blog/](http://jekyll-boilerplate.richzendy.org/page-gallery-blog/)
 
 ## Resources ##
