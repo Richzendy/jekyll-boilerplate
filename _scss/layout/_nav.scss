@@ -1,9 +1,10 @@
 /* NAV
 -------------------------------------------------*/
+
 .navbar-brand {
     padding: 0;
     line-height: 70px;
-    > img {
+    >img {
         display: inline-block;
         max-width: 220px;
         max-height: 50px;
@@ -44,8 +45,13 @@
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     color: $white;
-} 
+}
 
 .navbar-default .navbar-toggle .icon-bar {
     background: $white;
+}
+
+.navbar-default.navbar-scrolled {
+    transition: all 1s;
+    transform: translateY(3px) scale(1.01);
 }

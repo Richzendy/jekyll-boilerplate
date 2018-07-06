@@ -26,7 +26,7 @@
     /* Lightbox
     ----------------------------------------------*/
     $('.image-link').magnificPopup({
-        type:'image'
+        type: 'image'
     });
 
     /* Sticky menu
@@ -36,14 +36,14 @@
         var header = $(".navbar-default");
         $(window).scroll(function() {
             var scroll = $(window).scrollTop();
-    
+
             if (scroll >= 100) {
-                header.addClass("navbar-fixed-top");
+                header.addClass("navbar-scrolled navbar-fixed-top");
+
             } else {
-                header.removeClass("navbar-fixed-top");
+                header.removeClass("navbar-scrolled navbar-fixed-top");
             }
         });
     });
-          
-})(jQuery);
 
+})(jQuery);
